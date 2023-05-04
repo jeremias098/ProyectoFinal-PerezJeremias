@@ -1,2 +1,9 @@
+//imports base
 @import 'base/vars';
+@import 'base/reset';
+//imports components
 @import 'component/navbar';
+@import 'component/footer';
+@import 'component/utilitis';
+//imports layout
+@import 'layout/index';

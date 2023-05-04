@@ -1,9 +1,66 @@
+* {
+  font-size: 16px;
+}
+
+body {
+  background: rgb(33, 33, 33);
+}
+
+.main, .footer {
+  position: relative;
+  top: 70px;
+}
+
 .navbar {
   background-color: rgba(181, 116, 45, 0.89);
 }
 .navbar .navbar-brand img {
   height: 1.8em;
   width: 1.8em;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  background-color: rgba(181, 116, 45, 0.89);
+}
+.footer .parrafo-ft {
+  font-size: 0.6em;
+}
+
+.titulo {
+  background-color: rgba(181, 116, 45, 0.89);
+  margin: 1em 0;
+  font-size: 1em;
+}
+
+.cards-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.cards-container .cards {
+  background-color: rgba(60, 60, 60, 0.872);
+  height: 18em;
+  width: 60%;
+  border-radius: 10px;
+  transition: 0.5s;
+  box-shadow: 10px, 10px, 10px rgba(0, 0, 0, 0.5);
+}
+.cards-container .cards .titulo-card {
+  font-size: 1em;
+  color: antiquewhite;
+}
+.cards-container .cards img {
+  height: 85%;
+  width: 100%;
+  border-radius: 10px;
+}
+.cards-container .cards:hover {
+  transform: scale(1.1);
 }
 
 /*# sourceMappingURL=style.css.map */

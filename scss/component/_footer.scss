@@ -1,0 +1,11 @@
+.footer{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: $bgGeneral;
+    .parrafo-ft{
+        font-size: .6em;
+    }
+}
