@@ -1,4 +1,45 @@
-@media (min-width:350px) {
+@media (min-width:400px) {
+    .cards-container{
+    .cards{
+        height: 18em;
+        width: 250px;
+
+    }
+    }
     
-    
+}
+
+@media (min-width:760px) {
+    #carouselExample{
+        .carousel-inner{
+            height: 450px;
+            
+        }
+    }
+
+    .titulo{
+        font-size: 1.2em ;
+    }
+    .cards-container{
+        @include d-flex (flex,center, row);
+        justify-content: center;
+        gap: 60px;
+    .cards{
+        height: 18em;
+        width: 200px;
+
+    }
+    }
+    .nosotros{
+        .nosotros-parrafo{
+            padding: 20px;
+            
+        }
+    .nosotros-imag{
+        background: no-repeat center url(../multimedia/image/logo2.png);
+        background-size: contain;
+        background-position: auto;
+
+    }
+}
 }

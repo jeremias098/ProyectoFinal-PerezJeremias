@@ -3,18 +3,18 @@
 //HOME
 
 
-
-
-//cards home
+//titulo home
 .titulo{
     background-color: $bgGeneral;
     margin: 1em 0;
     font-size: 1em;
 }
+//cards home
+
 .cards-container{
     @include d-flex (flex,center, column);
     margin: 20px 0;
-    gap: 10px;
+    gap: 20px;
     
     .cards{
         background-color: $bgCards;

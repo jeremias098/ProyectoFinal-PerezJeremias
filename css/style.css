@@ -5,8 +5,7 @@
 body {
   background: rgb(33, 33, 33);
 }
-
-.main, .footer {
+body .main, body .footer {
   position: relative;
   top: 70px;
 }
@@ -41,7 +40,7 @@ body {
   align-items: center;
   flex-direction: column;
   margin: 20px 0;
-  gap: 10px;
+  gap: 20px;
 }
 .cards-container .cards {
   background-color: rgba(60, 60, 60, 0.872);
@@ -67,6 +66,40 @@ body {
 .nosotros {
   background: rgba(60, 60, 60, 0.872);
   width: 100%;
+}
+
+@media (min-width: 400px) {
+  .cards-container .cards {
+    height: 18em;
+    width: 250px;
+  }
+}
+@media (min-width: 760px) {
+  #carouselExample .carousel-inner {
+    height: 450px;
+  }
+  .titulo {
+    font-size: 1.2em;
+  }
+  .cards-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+  }
+  .cards-container .cards {
+    height: 18em;
+    width: 200px;
+  }
+  .nosotros .nosotros-parrafo {
+    padding: 20px;
+  }
+  .nosotros .nosotros-imag {
+    background: no-repeat center url(../multimedia/image/logo2.png);
+    background-size: contain;
+    background-position: auto;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
