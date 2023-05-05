@@ -13,6 +13,7 @@
 }
 .cards-container{
     @include d-flex (flex,center, column);
+    margin: 20px 0;
     gap: 10px;
     
     .cards{
@@ -21,7 +22,7 @@
         width: 60%;
         border-radius:10px ;
         transition: .5s;
-        box-shadow: 10px, 10px , 10px rgba(0,0,0,.5);
+        box-shadow: 10px 10px  10px rgba(0,0,0,.5);
         .titulo-card{
             font-size: 1em;
             color: antiquewhite;
@@ -32,11 +33,16 @@
             border-radius: 10px;
         }
         &:hover{
-            transform: scale(1.1);
+            transform: scale(1.05);
 
         }
     }
 }
 
 //Nosotros Home
+
+.nosotros{
+    background: $bgCards;
+    width: 100%;
+}
 

@@ -27,7 +27,7 @@ body {
   background-color: rgba(181, 116, 45, 0.89);
 }
 .footer .parrafo-ft {
-  font-size: 0.6em;
+  font-size: 0.8em;
 }
 
 .titulo {
@@ -40,6 +40,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  margin: 20px 0;
   gap: 10px;
 }
 .cards-container .cards {
@@ -48,7 +49,7 @@ body {
   width: 60%;
   border-radius: 10px;
   transition: 0.5s;
-  box-shadow: 10px, 10px, 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 .cards-container .cards .titulo-card {
   font-size: 1em;
@@ -60,7 +61,12 @@ body {
   border-radius: 10px;
 }
 .cards-container .cards:hover {
-  transform: scale(1.1);
+  transform: scale(1.05);
+}
+
+.nosotros {
+  background: rgba(60, 60, 60, 0.872);
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
