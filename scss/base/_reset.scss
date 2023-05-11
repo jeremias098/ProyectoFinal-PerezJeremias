@@ -1,12 +1,22 @@
-*{
+html{
     font-size: 16px;
-    
+    &::-webkit-scrollbar{
+        width: 15px;
+    }
+    &::-webkit-scrollbar-thumb{
+        background: $bgGeneral;
+        
+    }
+    &::-webkit-scrollbar-thumb:hover{
+        border-radius: 50px;
+        
+    }
 }
 body{
     background: rgb(33, 33, 33) ;
     .main , .footer {
         position: relative;
         top: 70px;
-    
+        
     }
 }

@@ -46,3 +46,91 @@
     width: 100%;
 }
 
+
+
+
+
+//Series y Peliculas 
+
+//titulo
+
+.titulo-galeria{
+    margin: .3em;
+    color: antiquewhite;
+}
+//opciones generales 
+.opciones{
+    display: flex;
+    flex-direction: column;
+    margin: 1em ;
+    gap: 10px;
+    .op{
+        border-radius: 10px;
+    }
+}
+
+//cards
+.galeria{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: antiquewhite;
+    img{
+        margin: 10px;
+        height:30% ;
+        width: 30%;
+    }
+    .card-galeria{
+        display: flex;
+        gap: 5px;
+        height: 10%;
+        width: 90%;
+        margin: 10px;
+        background: $bgCards;
+        border-radius: 10px;
+
+        .contend-card{
+            display: flex;
+            flex-direction: column;
+            h3{
+                font-size: 1rem;
+                color: rgb(157, 145, 109);
+                max-lines: 2;
+            }
+            p{
+                font-size: .8em ;
+                width: auto;
+                padding: 5px;
+                margin: 5px;
+                text-align: justify;
+                display: -webkit-box;
+                -webkit-line-clamp: 4;
+                -webkit-box-orient: vertical;
+                overflow: hidden;
+                &::-webkit-scrollbar{
+                    width: 15px;
+                }
+                &::-webkit-scrollbar-thumb{
+                    background: $bgGeneral;
+                    
+                }   
+            }
+            .boton{
+                
+                background-color: $bgGeneral;
+                border: none;
+                border-radius: 5px;
+                margin: 0 auto;
+                margin-bottom: 20px;
+                width: 30%;
+                &:hover{
+                    box-shadow:  2px 2px 8px rgba(223, 127, 32, 0.802), -2px -2px 8px rgba(223, 127, 32, 0.802) ;
+                }
+            }
+        }
+        &:hover{
+            transform: scale(1.05);
+        }
+    }
+    
+}
