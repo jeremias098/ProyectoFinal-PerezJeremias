@@ -107,37 +107,22 @@ body .main, body .footer {
 .galeria .card-galeria {
   display: flex;
   gap: 5px;
-  height: 10%;
   width: 90%;
   margin: 10px;
   background: rgba(60, 60, 60, 0.872);
   border-radius: 10px;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 .galeria .card-galeria .contend-card {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  width: 100%;
 }
 .galeria .card-galeria .contend-card h3 {
   font-size: 1rem;
   color: rgb(157, 145, 109);
-  max-lines: 2;
-}
-.galeria .card-galeria .contend-card p {
-  font-size: 0.8em;
-  width: auto;
-  padding: 5px;
-  margin: 5px;
-  text-align: justify;
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-}
-.galeria .card-galeria .contend-card p::-webkit-scrollbar {
-  width: 15px;
-}
-.galeria .card-galeria .contend-card p::-webkit-scrollbar-thumb {
-  background: rgba(181, 116, 45, 0.89);
+  text-align: center;
 }
 .galeria .card-galeria .contend-card .boton {
   background-color: rgba(181, 116, 45, 0.89);
@@ -145,7 +130,7 @@ body .main, body .footer {
   border-radius: 5px;
   margin: 0 auto;
   margin-bottom: 20px;
-  width: 30%;
+  width: 40%;
 }
 .galeria .card-galeria .contend-card .boton:hover {
   box-shadow: 2px 2px 8px rgba(223, 127, 32, 0.802), -2px -2px 8px rgba(223, 127, 32, 0.802);
@@ -189,10 +174,8 @@ body .main, body .footer {
 }
 @media (max-width: 219px) {
   .galeria img {
-    height: 50%;
-    width: 50%;
-    position: relative;
-    left: 20%;
+    height: 80%;
+    width: 80%;
   }
   .galeria .card-galeria {
     display: flex;
@@ -211,12 +194,21 @@ body .main, body .footer {
   }
   .galeria .card-galeria {
     display: flex;
+    justify-content: center;
     flex-direction: column;
     width: 190px;
   }
   .galeria .card-galeria img {
     height: 250px;
-    width: 90%;
+    width: 95%;
+    position: relative;
+    left: -5px;
+  }
+  .galeria .card-galeria .contend-card {
+    padding: 10px;
+  }
+  .galeria .card-galeria .contend-card h3 {
+    font-size: 1.2em;
   }
   .opciones {
     display: flex;

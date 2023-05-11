@@ -9,6 +9,7 @@
     .cards{
         height: 18em;
         width: 175px;
+        
 
     }
     }
@@ -70,10 +71,10 @@
     
     .galeria{
         img{
-            height: 50%;
-            width: 50%;
-            position: relative;
-            left: 20%;
+            height: 80%;
+            width: 80%;
+            
+            
         }
         .card-galeria{
             display: flex;
@@ -96,11 +97,21 @@
         flex-wrap: wrap;
         .card-galeria{
             display: flex;
+            justify-content: center;
             flex-direction: column;
             width:190px;
             img{
                 height: 250px;
-                width: 90%;
+                width: 95%;
+                position: relative;
+                left: -5px;
+               
+            }
+            .contend-card{
+                padding: 10px;
+                h3{
+                    font-size: 1.2em;
+                }
             }
         }
     }

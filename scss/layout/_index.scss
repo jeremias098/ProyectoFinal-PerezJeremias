@@ -83,38 +83,24 @@
     .card-galeria{
         display: flex;
         gap: 5px;
-        height: 10%;
         width: 90%;
         margin: 10px;
         background: $bgCards;
         border-radius: 10px;
+        box-shadow: 10px 10px 10px rgba(0,0,0,.5);
 
         .contend-card{
             display: flex;
             flex-direction: column;
+            justify-content: center;
+            width: 100%;
             h3{
                 font-size: 1rem;
                 color: rgb(157, 145, 109);
-                max-lines: 2;
+                text-align: center;
+                
             }
-            p{
-                font-size: .8em ;
-                width: auto;
-                padding: 5px;
-                margin: 5px;
-                text-align: justify;
-                display: -webkit-box;
-                -webkit-line-clamp: 4;
-                -webkit-box-orient: vertical;
-                overflow: hidden;
-                &::-webkit-scrollbar{
-                    width: 15px;
-                }
-                &::-webkit-scrollbar-thumb{
-                    background: $bgGeneral;
-                    
-                }   
-            }
+            
             .boton{
                 
                 background-color: $bgGeneral;
@@ -122,7 +108,7 @@
                 border-radius: 5px;
                 margin: 0 auto;
                 margin-bottom: 20px;
-                width: 30%;
+                width: 40%;
                 &:hover{
                     box-shadow:  2px 2px 8px rgba(223, 127, 32, 0.802), -2px -2px 8px rgba(223, 127, 32, 0.802) ;
                 }
