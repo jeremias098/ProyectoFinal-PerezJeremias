@@ -76,6 +76,7 @@ body .main, body .footer {
 .nosotros {
   background: rgba(60, 60, 60, 0.872);
   width: 100%;
+  margin: 0 auto;
 }
 
 .titulo-galeria {
@@ -139,6 +140,18 @@ body .main, body .footer {
   transform: scale(1.05);
 }
 
+.nosotros {
+  margin: 20px auto;
+}
+
+.flayer {
+  height: 30%;
+}
+.flayer img {
+  height: 50%;
+  width: 100%;
+}
+
 @media (min-width: 400px) {
   .cards-container .cards {
     height: 18em;
@@ -150,7 +163,7 @@ body .main, body .footer {
     height: 450px;
   }
   .titulo {
-    font-size: 1.2em;
+    font-size: 1.8em;
   }
   .cards-container {
     display: flex;
@@ -196,7 +209,7 @@ body .main, body .footer {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 190px;
+    width: 250px;
   }
   .galeria .card-galeria img {
     height: 250px;
@@ -216,6 +229,17 @@ body .main, body .footer {
   }
   .footer {
     text-align: center;
+  }
+}
+@media (min-width: 700px) {
+  .flayer {
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(rgba(5, 7, 12, 0.75), rgba(5, 7, 12, 0.75)), url(../multimedia/image/backdrop-BNH\ \(1\).jpg), no-repeat center center;
+    background-size: cover;
+  }
+  .flayer img {
+    width: 700px;
   }
 }
 

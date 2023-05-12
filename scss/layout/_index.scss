@@ -44,6 +44,7 @@
 .nosotros{
     background: $bgCards;
     width: 100%;
+    margin: 0 auto;
 }
 
 
@@ -119,4 +120,23 @@
         }
     }
     
+}
+
+
+
+
+
+//NOSOTROS
+
+
+//flayer 
+.nosotros{
+    margin: 20px auto ;
+}
+.flayer{
+    height: 30%;
+    img{
+        height: 50%;
+        width: 100%;
+    }
 }
