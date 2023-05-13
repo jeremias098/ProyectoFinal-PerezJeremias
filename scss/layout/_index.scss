@@ -103,6 +103,7 @@
             .boton{
                 
                 background-color: $bgGeneral;
+                color: black;
                 border: none;
                 border-radius: 5px;
                 margin: 0 auto;
@@ -130,6 +131,7 @@
         border: none;
         border-radius: 10px;
         background-color: $bgGeneral;
+        color: black;
         &:hover{
             box-shadow:  2px 2px 8px rgba(223, 127, 32, 0.802), -2px -2px 8px rgba(223, 127, 32, 0.802) ;
         }

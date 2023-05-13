@@ -127,6 +127,7 @@ body .main, body .footer {
 }
 .galeria .card-galeria .contend-card .boton {
   background-color: rgba(181, 116, 45, 0.89);
+  color: black;
   border: none;
   border-radius: 5px;
   margin: 0 auto;
@@ -151,6 +152,7 @@ body .main, body .footer {
   border: none;
   border-radius: 10px;
   background-color: rgba(181, 116, 45, 0.89);
+  color: black;
 }
 .contenedor-boton .ver-mas:hover {
   box-shadow: 2px 2px 8px rgba(223, 127, 32, 0.802), -2px -2px 8px rgba(223, 127, 32, 0.802);
