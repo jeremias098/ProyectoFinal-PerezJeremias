@@ -3,3 +3,8 @@
     align-items: $align;
     flex-direction: $direccion;
 }
+@mixin column-position($flex,$direction,$justify){
+            display: $flex;
+            flex-direction: $direction;
+            justify-content: $justify;
+}
